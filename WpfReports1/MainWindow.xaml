@@ -1,0 +1,31 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFReports"
+        xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:Control="clr-namespace:LoadingControl.Control" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="WPFReports.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="410.808" Width="391.046" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" VerticalContentAlignment="Center" UseLayoutRounding="False" WindowStyle="None" ResizeMode="CanResize">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="383"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnExit" Content="Exit" Width="84" Margin="0,0,16,10" Height="34" Click="btnExit_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Right" Padding="0" IsDefault="True"/>
+        <Button x:Name="button2" Content="Show on Preview Control in Popup"  Margin="0,116,0,0" Click="button2_Click" Height="45" MaxHeight="45" MinHeight="45" MaxWidth="210" MinWidth="210" Width="210" HorizontalAlignment="Center" VerticalAlignment="Top" Padding="0" />
+        <Button x:Name="button3" Content="Show on Print Preview Dialog" VerticalAlignment="Top" Margin="0,177,0,0" Click="button3_Click" Height="45" MaxHeight="45" MinHeight="45" MaxWidth="210" MinWidth="210" Width="210" HorizontalAlignment="Center" Padding="0"/>
+        <Button x:Name="button1" Content="Show Document Preview object" HorizontalAlignment="Center" VerticalAlignment="Top" Click="button1_Click" Margin="0,57,0,0" Height="45" Width="210" Padding="0"/>
+
+        <Control:LoadingAnimation x:Name="loading" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="152,128,145,187" Visibility="Hidden" Height="88" Width="86"/>
+        <Button x:Name="button4" Content="Send to&#xA;Default Printer" HorizontalAlignment="Center" Margin="86,237,198,0" VerticalAlignment="Top" Width="99" Height="45" VerticalContentAlignment="Center" Padding="0" Click="button4_Click" HorizontalContentAlignment="Center"/>
+        <Button x:Name="button5" Content="Send to&#xA;Printer..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="97" Margin="199,237,0,0" Height="45" Click="button5_Click"/>
+        <Label x:Name="label" Content="Reports" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="199" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18"/>
+
+
+
+    </Grid>
+
+</Window>

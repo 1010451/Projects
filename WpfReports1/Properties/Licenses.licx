@@ -1,0 +1,11 @@
+DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Printing.DocumentPreviewControl, DevExpress.Xpf.Printing.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Editors.ButtonEdit, DevExpress.Xpf.Core.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Editors.PopupCalcEdit, DevExpress.Xpf.Core.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Bars.BarManager, DevExpress.Xpf.Core.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Docking.DockLayoutManager, DevExpress.Xpf.Docking.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Core.DXTabControl, DevExpress.Xpf.Core.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.LayoutControl.GroupBox, DevExpress.Xpf.LayoutControl.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.LayoutControl.LayoutGroup, DevExpress.Xpf.LayoutControl.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.LayoutControl.LayoutControl, DevExpress.Xpf.LayoutControl.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Reports.UserDesigner.ReportDesigner, DevExpress.Xpf.ReportDesigner.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
